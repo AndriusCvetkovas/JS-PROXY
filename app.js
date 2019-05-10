@@ -39,7 +39,6 @@ var prox = new Proxy(pkg, handle);
 
 function CheckForPkg(){
   spkg = localStorage.getItem("package");
-
   if (spkg) {
     pkg = JSON.parse(spkg);
   }
