@@ -1,0 +1,32 @@
+#app{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#controls {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+#preview {
+  flex: 1;
+  background-color: gray;
+  width: 70%;
+  height: 30vh;
+}
+#board {
+  flex: 10;
+  background-color: #aaa;
+  width: 70vw;
+  height: 70vh;
+}
+#status {
+  flex: 1;
+  background-color: #666;
+  width: 100vw;
+  height: 30vh
+}

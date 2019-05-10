@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <title>Review 3</title>
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link href="app.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body onload="CheckForPkg()">
+    <div id="app">
+      <div id="controls">
+        <input type="text" id = "imgUrl" value="imageUrl" onchange="ChangePreview(this)"></input>
+        <input type="text" id ="msg" value="message" onchange="ChangePreview(this)"></input>
+        <input type="number" id ="fontSize" value="12" onchange="ChangePreview(this)"></input>
+        <input type="range" id ="imgDim" min="1" max="100" onchange="ChangePreview(this)">
+        <input type="color" id="bgColor" onchange="ChangePreview(this)">
+        <input type="color" id ="fontColor" onchange="ChangePreview(this)">
+        <button id="Send" onclick="ClonePreview()">Send</button>
+      </div>
+      <div id="preview">
+        <img class="mimig" id="previewImg" src="">
+        <span class="mmsg" id="previewMsg"></span>
+      </div>
+      <div id="board">
+      </div>
+      <div id="status">
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

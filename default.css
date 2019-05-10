@@ -1,0 +1,19 @@
+#app {
+  width:100vw;
+  height:100vh;
+  left:0;
+  top:0;
+  align-items: center;
+  position:fixed;
+  display:flex;
+  flex-direction: column;
+}
+
+#app #previewMsg {
+  font-size:5pt;
+}
+
+#app #previewImg {
+  max-height: 50px;
+  max-width: 50px;
+}
